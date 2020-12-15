@@ -1,0 +1,127 @@
+/* Master Styles */
+body {
+	margin: 0px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
+	text-decoration-color: blue;
+	background-color: rgb(101, 213, 250);
+}
+
+/*Nav Styles*/
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.left-side {
+	display: flex;
+	font-size: 20px;
+	
+}
+.right-side {
+	font-size:20px;
+}
+.background {
+	border-style: outset;
+	background-color:rgb(101, 213, 250);
+	border-color: sandybrown;
+	margin: 20px 150px 20px 150px;
+	padding: 20px 20px 20px 20px;
+	font-family: 'Times New Roman';
+}
+.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+
+}
+
+.nav-link-wrapper a {
+	color: rgb(0, 4, 255);
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+	color: black;
+}
+/*other styling*/
+.greetings {
+	padding-left:0px;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
+.drMagnesium {
+	padding-left:20px;
+	padding-right:90px;
+}
+.billNye {
+
+}
+ul {
+	padding-left: 90px;
+	padding-right: 90px;
+}
+.sectionHeader {
+
+	font-size: 15px;
+	word-wrap: break-word;
+}
+.closing {
+	text-align: center;
+	font-size: 15px;
+}
+
+.note {
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.maze { 
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+.jigsaw {
+	font-size: 20px;
+	margin-left: 40px;
+
+}
+.anagram {
+	font-size: 20px;
+	margin-left: 40px;
+}
+.puzzleAndrei {
+	border-style: outset;
+	background-color:rgb(101, 213, 250);
+	border-color: sandybrown;
+	font-size: 20px;
+	margin: 20px 150px 20px 150px;
+	padding: 20px 20px 20px 20px;
+	font-family: 'Times New Roman';
+}
+.crossword {
+	font-size: 20px;
+	margin-left: 40px;
+
+}
+
+.form {
+
+}
